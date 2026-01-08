@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -69,7 +69,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # # }
 
 
-# # Настройка, при которой файл db.sqlite3 будет храниться в специальной отдельной 
+# # Настройка, при которой файл db.sqlite3 будет храниться в специальной отдельной
 # # директории (Docker volume)
 # DATABASES = {
 #     'default': {
